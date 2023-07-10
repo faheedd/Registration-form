@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'fantasy';
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: chocolate;
+}
+fieldset{
+    width: 1000px;
+    height: 1400px;
+    color: black;
+    background-color: #92a8d1;
+    border: none;
+    border-radius: 10px;
+    margin: 20px auto 20px auto;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"],
+input[type="date"] {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+select {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.one {
+    margin-left: 205px;
+}
+
+.two {
+    margin-left: 185px;
+}
+
+.three {
+    margin-left: 205px;
+}
+
+.four {
+    margin-left: 227px;
+}
+
+.six {
+    margin-left: 175px;
+}
+
+.country {
+    margin-left: 215px;
+}
+
+.state {
+    margin-left: 245px;
+}
+
+.seven {
+    margin-left: 256px;
+}
+
+.eight {
+    margin-left: 163px;
+}
+
+.nine {
+    margin-left: 163px;
+}
+
+.ten {
+    margin-left: 165px;
+}
+
+.eleven {
+    margin-left: 157px;
+}
+
+.twelve {
+    margin-left: 190px;
+}
+
+.thirteen {
+    margin-left: 160px;
+}
+
+.fourteen {
+    margin-left: 85px;
+}
+
+.fifteen {
+    margin-left: 107px;
+}
+
+.seventeen {
+    margin-left: 125px;
+}
+
+.eighteen {
+    margin-left: 105px;
+}
+
+.nineteen {
+    margin-left: 50px;
+}
+
+.twenty {
+    margin-left: 125px;
+}
+
+input[type="reset"] {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    color: yellow;
+}
+input[type="submit"] {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: red;
+    font-weight: 900;
+    display: inline; 
+    margin-left: 70px;  
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link href="style.CSS" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form action="" method="post">
+        <fieldset class="box">
+            <label for="fname">FIRST NAME:
+                <input type="text" class="one" id="fname" name="fname" size="40" maxlength="15">
+            </label> <br>
+            <label for="mname">MIDDLE NAME:
+                <input type="text"  class="two" id="mname" name="mname" size="40" maxlength="15">
+            </label> <br>
+            <label for="lname">LAST NAME:
+                <input type="text" class="three" id="lname" name="lname" size="40" maxlength="15">
+            </label>
+            <br>
+            <label for="gender">GENDER:
+                <input type="radio" class="four" name="male" value="male">MALE
+                <input type="radio" name="female" value="female">FEMALE
+            </label>
+            <br>
+            <label for="date">DATE OF BIRTH:
+                <input type="date" class="six" name="date of birth" required>
+            </label>
+            <br>
+            <label for="country">COUNTRY:
+                <select class="country">
+                    <option></option>
+                    <option value="algeria">ALGERIA</option>
+                    <option value="angola">ANGOLA</option>
+                    <option value="benin">BENIN</option>
+                    <option value="botswana">BOTSWANA</option>
+                    <option value="burkina faso">BURKINA FASO</option>
+                    <option value="burundi">BURUNDI</option>
+                    <option value="cabo verde">CABO VERDE</option>
+                    <option value="cameroon">CAMEROON</option>
+                    <option value="cantral african republic">CENTRAL AFRICAN REPUBLIC</option>
+                    <option value="chad">CHAD</option>
+                    <option value="comoros">COMOROS</option>
+                    <option value="congo">CONGO</option>
+                    <option value="cote d'lvoire">COTE D'LVOIRE</option>
+                    <option value="djibouti">DJIBOUTI</option>
+                    <option value="egypt">EGYPT</option>
+                    <option value="equatorial guinea">EQUATORIAL GUINEA</option>
+                    <option value="eritrea">ERITREA</option>
+                    <option value="eswatini">ESWATINI</option>
+                    <option value="ethiopia">ETHIOPIA</option>
+                    <option value="gabon">GABON</option>
+                    <option value="gambia">GAMBIA</option>
+                    <option value="ghana">ghana</option>
+                    <option value="guinea">GUINEA</option>
+                    <option value="guinea-bissau">GUINEA-BISSAU</option>
+                    <option value="kenya">KENYA</option>
+                    <option value="lesotho">LESOTHO</option>
+                    <option value="liberia">LIBERIA</option>
+                    <option value="lybia">LYBIA</option>
+                    <option value="madagascar">MADAGASCAR</option>
+                    <option value="malawi">MALAWI</option>
+                    <option value="mali">MALI</option>
+                    <option value="mauritania">MAURITANIA</option>
+                    <option value="mauritius">MAURITIUS</option>
+                    <option value="moroco">MOROCO</option>
+                    <option value="mozambique">MOZAMBIQUE</option>
+                    <option value="namibia">NAMIBIA</option>
+                    <option value="niger">NIGER</option>
+                    <option value="nigeria" selected>NIGERIA</option>
+                    <option value="rwanda">RWANDA</option>
+                    <option value="sao tome and principe">SAO TOME AND PRINCIPE</option>
+                    <option value="senegal">SENEGAL</option>
+                    <option value="seychelles">SEYCHELLES</option>
+                    <option value="sierra leone">SEIRRA LEONE</option>
+                    <option value="somalia">SOMALIA</option>
+                    <option value="south africa">SOUTH AFRICA</option>
+                    <option value="south sudan">SOUTH SUDAN</option>
+                    <option value="sudan">SUDAN</option>
+                    <option value="tanzania">TANZANIA</option>
+                    <option value="togo">TOGO</option>
+                    <option value="tunisia">TUNISIA</option>
+                    <option value="uganda">UGANDA</option>
+                    <option value="zambia">ZAMBIA</option>
+                    <option value="zimbabwe">ZIMBABWE</option>
+                </select>
+            </label>
+            <br>
+            <label for="state">STATE:
+                <select class="state">
+                    <option></option>
+                    <option value="abia">ABIA</option>
+                    <option value="adamawa">ADAMAWA</option>
+                    <option value="akwa ibom">AKWA IBOM</option>
+                    <option value="anambra">ANAMBRA</option>
+                    <option value="bauchi">BAUCHI</option>
+                    <option value="bayelsa">BAYELSA</option>
+                    <option value="benue">BENUE</option>
+                    <option value="borno">BORNO</option>
+                    <option value="cross river">CROSS RIVER</option>
+                    <option value="delta">DELTA</option>
+                    <option value="ebonyi">EBONYI</option>
+                    <option value="edo">EDO</option>
+                    <option value="ekiti">EKITI</option>
+                    <option value="enugu">ENUGU</option>
+                    <option value="gombe">GOMBE</option>
+                    <option value="imo">IMO</option>
+                    <option value="jigawa">JIGAWA</option>
+                    <option value="kaduna">KADUNA</option>
+                    <option value="kano">KANO</option>
+                    <option value="kastina">KASTINA</option>
+                    <option value="kebi">KEBI</option>
+                    <option value="kogi">KOGI</option>
+                    <option value="kwara">KWARA</option>
+                    <option value="lagos" selected>LAGOS</option>
+                    <option value="nasarawa">NASARAWA</option>
+                    <option value="naiger">NIGER</option>
+                    <option value="ogun">OGUN</option>
+                    <option value="ondo">ONDO</option>
+                    <option value="osun">OSUN</option>
+                    <option value="oyo">OYO</option>
+                    <option value="plateau">PLATEAU</option>
+                    <option value="rivers">RIVERS</option>
+                    <option value="sokoto">SOKOTO</option>
+                    <option value="taraba">TARABA</option>
+                    <option value="yobe">YOBE</option>
+                    <option value="zamfara">ZAMFARA</option>
+                </select>
+            </label>
+            <br>
+            <label for="local government area">LGA:
+                <input type="text" class="seven" id="lga" name="lga" size="40">
+            </label>
+            <br>
+            <label for="phone number">PHONE NUMBER:
+                <input type="tel" class="eight" id="pn" name="pn">
+            </label>
+            <br>
+            <label for="email address">EMAIL ADDRESS:
+                <input type="email" class="nine" id="email" name="email">
+            </label>
+            <br>
+            <label for="home address">HOME ADDRESS:
+            <input type="text" class="ten" id="ha" name="ha">
+            </label>
+            <br>
+            <label for="office address">OFFICE ADDRESS:
+                <input type="text" class="eleven" id="oa" name="oa">
+            </label>
+            <br>
+            <label for="occupation">OCCUPATION:
+                <input type="checkbox" class="twelve">EMPLOYED
+                <input type="checkbox">SELF-EMPLOYED
+                <input type="checkbox">UNEMPLOYED
+            </label>
+            <br>
+            <label for="marital status">MARITAL STATUS:
+                <input type="checkbox" class="thirteen">SINGLE
+                <input type="checkbox">MARRIED
+                <input type="checkbox">OTHERS
+            </label>
+            <br>
+            <label for="next of kin's full name">NEXT OF KIN'S FULL NAME:
+                <input type="text" class="fourteen" id="nok" name="nok">
+            </label>
+            <br>
+            <label for="next of kin's address">NEXT OF KINS ADDRESS:
+                <input type="text" class="fifteen" id="nka" name="nka">
+            </label>
+            <br>
+            <label for="next of kin's email">NEXT OF KIN'S EMAIL:
+                <input type="email" class="seventeen" id="nke" name="nke"> 
+            </label>
+            <br>
+            <label for="next of kin's address">NEXT OF KIN'S ADDRESS:
+                <input type="text" class="eighteen" id="nka" name="nka">
+            </label>
+            <br>
+            <label for="next of kin's phone number">NEXT OF KIN'S PHONE NUMBER:
+                <input type="tel" class="nineteen" id="nkn" name="nkn">
+            </label>
+            <br>
+            <label for="next of kin's email">NEXT OF KIN'S EMAIL:
+                <input type="email" class="twenty" id="nke" name="nke">
+            </label>
+            <br> 
+            <input type="reset" class="twentyone" id="clr" value="CLEAR">
+            
+            <input type="submit" class="twentytwo" id="smt" value="REGISTER">
+        </fieldset>
+    </form>
+</body>
+</html>
